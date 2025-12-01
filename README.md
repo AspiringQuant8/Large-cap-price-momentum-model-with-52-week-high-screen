@@ -76,29 +76,17 @@ seaborn
 
 scikit-learn
 
-Usage
-from momentum_strategy import momentum_52week_strategy
+**Dow Jones Industrial Average Index constituents as of 1 December 2025**
 
 tickers = ["AAPL","AMGN","AXP","BA","CAT","CRM","CSCO","CVX","DIS","DOW","GS",
            "HD","HON","IBM","INTC","JNJ","JPM","KO","MCD","MMM","MRK","MSFT",
            "NKE","PFE","PG","RTX","TRV","UNH","V","VZ","WMT"]
 
-trades, pv, open_positions, monthly_info, pv_first_of_month = momentum_52week_strategy(
-    tickers,
+**Back test period**
+
     "2019-06-30",
     "2025-06-30"
-)
 
-
-trades: DataFrame of all executed trades
-
-pv: Daily portfolio value
-
-open_positions: List of currently held positions
-
-monthly_info: Monthly portfolio summary
-
-pv_first_of_month: Portfolio snapshot on the first trading day of each month
 
 **License**
 
