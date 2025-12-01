@@ -99,17 +99,17 @@ monthly_info: Monthly portfolio summary
 
 pv_first_of_month: Portfolio snapshot on the first trading day of each month
 
-**License**
-
-This project is released under the MIT License, which allows free use, modification, and distribution while requiring attribution to the original author.
-
-
 **Visualisation**
 
-The strategy produces three key visualizations:
+The strategy produces three key visualisations:
 
 Portfolio vs DJI Line Chart: Tracks total value of the portfolio against the Dow Jones index.
 
 Monthly Returns Heatmap: Visualises monthly portfolio and DJI returns.
 
 Distribution of Trade Returns: Shows the spread of individual trade returns.
+
+**License**
+
+This project is released under the MIT License, which allows free use, modification, and distribution while requiring attribution to the original author.
+
