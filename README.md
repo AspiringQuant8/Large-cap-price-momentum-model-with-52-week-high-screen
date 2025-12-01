@@ -43,8 +43,7 @@ tickers = ["AAPL","AMGN","AXP","BA","CAT","CRM","CSCO","CVX","DIS","DOW","GS",
 
 **Back test period**
 
-    "2019-06-30",
-    "2025-06-30"
+2019-06-30 to 2025-06-30
 
 
 **Features**
