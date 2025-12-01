@@ -1,4 +1,4 @@
-**Momentum Trading Strategy with 52-week high filter**
+**Momentum trading strategy with 52-week high filter**
 
 This project implements a momentum-based trading strategy screening stocks based on their 52-week high. It simulates a portfolio of stocks (constituents of Dow Jones 30), tracks portfolio value, calculates drawdowns, and visualises results with heatmaps and return distributions. The project leverages Yahoo Finance for historical stock data.
 
@@ -10,31 +10,30 @@ https://www.bauer.uh.edu/tgeorge/papers/gh4-paper.pdf
 
 **How the model works in layman's terms**
 
-The model identifies stocks that reached a new 52-week high and buys at the closing price (submitting an order at the closing auction).
-The model will not hold two positions of the same ticker at one time. 
+The model identifies stocks that reached a new 52-week high and buys at the closing price (submitting an order to fill in closing auction).
+Stock that meet the criteria are held for 15 trading days. The model does not hold two positions of the same ticker at one time. 
 
 **Assumptions**
 
-Trading commissions are 3 basis points
+Trading commissions are 3 basis points.
 
 **Limitations**
 
-Survivorship bias as the tickers used in the returns below are DOW constituents as of 1 December and not from the start date of the sample time period. 
-Returns are gross and do not account for dividends and other corporate actions.
+Survivorship bias as the tickers used in the sample data are Dow Jones Industrial Average Index constituents as of 1 December 2025 and not from the start date of the sample time period. 
+Returns are gross returns and do not account for dividends and other corporate actions.
 
 **Notes**
 
-Acknowledging Generative AI was used extensively to write the Python code.
+Acknowledging generative AI was used extensively to write the Python code.
 
-The period chosen is 5 year between June 2019 and June 2025. Period was selected to illustrate how the model has smaller drawdowns during market volatility around COVID in April 2020. This period was also chosen to show that the model largely holds cash when the index is performing poorly and this contributes to the models lower drawdowns, for example during 2022, a negative year for Dow Jones, the model held more cash. 
+The period chosen is 5 year between June 2019 and June 2025. This period was selected to illustrate how the model has smaller drawdowns compared to the benchmark Dow Jones index during market declines - for example during the COVID-19 pandemic stock market volatility during March and April 2020. This period was also chosen to show that the model largely holds cash when the index is performing poorly, contributing to lower drawdowns. For example during 2022, a negative year for Dow Jones, the model held more cash. 
 
 
 **Further research**
 
-For this sample period, the portfolio returns are similar to the benchmark (Dow Jones Industrial Average Index), the model has a higher Sharpe ratio (risk adjusted return). Further development of the model might include testing with stocks from other country markets (DAX, Nikkei, so on), employing leverage, adjusting position sizing based on the number of index constituents at 52 week high as a signal for upward price momentum to continue 
+For this sample period, the portfolio returns are similar to the benchmark (Dow Jones Industrial Average Index), the model has a higher Sharpe ratio (risk adjusted return). Further development of the model might include testing with stocks from other country markets (DAX, Nikkei, so on), employing leverage, adjusting position sizing based on the number of index constituents at 52 week high as a signal for upward price momentum to continue.
 
 Welcome your feedback or discussion 
-
 
 **Features**
 
