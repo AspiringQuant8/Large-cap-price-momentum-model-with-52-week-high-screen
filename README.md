@@ -1,6 +1,6 @@
 **Momentum Trading Strategy with 52-week high filter**
 
-This project implements a momentum-based trading strategy screening stocks based on their 52-week high and executes trades using Python. It simulates a portfolio of stocks (constituent of DOW Jones 30), tracks portfolio value, calculates drawdowns, and visualises results with heatmaps and return distributions. The project leverages Yahoo Finance for historical stock data.
+This project implements a momentum-based trading strategy screening stocks based on their 52-week high and executes trades using Python. It simulates a portfolio of stocks (constituent of Dow Jones 30), tracks portfolio value, calculates drawdowns, and visualises results with heatmaps and return distributions. The project leverages Yahoo Finance for historical stock data.
 
 The trading strategy is underpinned by academic research on momentum strategies improved by closeness to 52-week high. 
 George, T. J., & Hwang, C.-Y. (2004). The 52-week high and momentum investing. The Journal of Finance, 59(3), 2145-2176. Retrieved from
@@ -13,7 +13,7 @@ The model will not hold two positions of the same ticker at one time.
 
 **Assumptions**
 
-Trading commisions are 3 basis points
+Trading commissions are 3 basis points
 
 **Limitations**
 
@@ -29,7 +29,7 @@ The period chosen is 5 year between June 2019 and June 2025. Period was selected
 
 **Further research**
 
-For this sample period, the portfolio returns are similar benchmark, the model has a higher sharpe ratio (risk adjusted return). Further development of the model might include testing the model with stocks from other countries (for example DAX, Nikkei), employing leverage, as well as adjusting position sizing based on the number of index constituents at 52 week high as a signal for upward price momentum to continue 
+For this sample period, the portfolio returns are similar to the benchmark (Dow Jones Industrial Average Index), the model has a higher Sharpe ratio (risk adjusted return). Further development of the model might include testing with stocks from other country markets (DAX, Nikkei, so on), employing leverage, adjusting position sizing based on the number of index constituents at 52 week high as a signal for upward price momentum to continue 
 
 Welcome your feedback or discussion 
 
@@ -44,7 +44,7 @@ Benchmark Comparison: Compares portfolio performance against the Dow Jones Indus
 
 Drawdown Analysis: Calculates and reports the largest portfolio and benchmark drawdowns.
 
-Visualizations:
+Visualisations:
 
 Portfolio vs DJI line chart
 
@@ -103,12 +103,12 @@ pv_first_of_month: Portfolio snapshot on the first trading day of each month
 This project is released under the MIT License, which allows free use, modification, and distribution while requiring attribution to the original author.
 
 
-**Visualization**
+**Visualisation**
 
 The strategy produces three key visualizations:
 
 Portfolio vs DJI Line Chart: Tracks total value of the portfolio against the Dow Jones index.
 
-Monthly Returns Heatmap: Visualizes monthly portfolio and DJI returns.
+Monthly Returns Heatmap: Visualises monthly portfolio and DJI returns.
 
 Distribution of Trade Returns: Shows the spread of individual trade returns.
