@@ -45,17 +45,18 @@ Benchmark Comparison: Compares portfolio performance against the Dow Jones Indus
 
 Drawdown Analysis: Calculates and reports the largest portfolio and benchmark drawdowns.
 
-Visualisations:
+**Visualisation**
 
-Portfolio vs DJI line chart
+The strategy produces three key visualisations:
 
-Monthly returns heatmaps for portfolio and DJI
+Portfolio vs DJI Line Chart: Tracks total value of the portfolio against the Dow Jones index.
 
-Distribution of trade returns histogram
+Monthly Returns Heatmap: Visualises monthly portfolio and DJI returns.
 
-Trade Reporting: Generates first/last 10 trades and monthly holdings, including stocks that could not be funded due to cash constraints.
+Distribution of Trade Returns: Shows the spread of individual trade returns.
 
-Installation
+
+**Installation**
 git clone <repository-url>
 cd <repository-folder>
 pip install -r requirements.txt
@@ -98,16 +99,6 @@ open_positions: List of currently held positions
 monthly_info: Monthly portfolio summary
 
 pv_first_of_month: Portfolio snapshot on the first trading day of each month
-
-**Visualisation**
-
-The strategy produces three key visualisations:
-
-Portfolio vs DJI Line Chart: Tracks total value of the portfolio against the Dow Jones index.
-
-Monthly Returns Heatmap: Visualises monthly portfolio and DJI returns.
-
-Distribution of Trade Returns: Shows the spread of individual trade returns.
 
 **License**
 
