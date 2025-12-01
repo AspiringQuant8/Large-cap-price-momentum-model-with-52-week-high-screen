@@ -3,6 +3,7 @@
 This project implements a momentum-based trading strategy screening stocks based on their 52-week high. It simulates a portfolio of stocks (constituents of Dow Jones 30), tracks portfolio value, calculates drawdowns, and visualises results with heatmaps and return distributions. The project leverages Yahoo Finance for historical stock data.
 
 The trading strategy is underpinned by academic research on momentum strategies improved by closeness to 52-week high. 
+
 George, T. J., & Hwang, C.-Y. (2004). The 52-week high and momentum investing. The Journal of Finance, 59(3), 2145-2176. Retrieved from
 https://www.bauer.uh.edu/tgeorge/papers/gh4-paper.pdf
 
