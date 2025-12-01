@@ -7,6 +7,7 @@ George, T. J., & Hwang, C.-Y. (2004). The 52-week high and momentum investing. T
 https://www.bauer.uh.edu/tgeorge/papers/gh4-paper.pdf
 
 **How the model works in layman's terms**
+
 The model identifies stocks that reached a new 52-week high and buys at the closing price (submitting an order at the closing auction).
 The model will not hold two positions of the same ticker at one time. 
 
