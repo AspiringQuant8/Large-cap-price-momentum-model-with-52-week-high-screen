@@ -1,4 +1,4 @@
-Momentum Trading Strategy with 52-week high filter 
+**Momentum Trading Strategy with 52-week high filter **
 
 This project implements a momentum-based trading strategy screening stocks based on their 52-week high and executes trades using Python. It simulates a portfolio of stocks, tracks portfolio value, calculates drawdowns, and visualises results with heatmaps and return distributions. The project leverages Yahoo Finance for historical stock data.
 
