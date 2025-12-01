@@ -35,6 +35,18 @@ For this sample period, the portfolio returns are similar to the benchmark (Dow
 
 Welcome your feedback or discussion 
 
+**Dow Jones Industrial Average Index constituents as of 1 December 2025**
+
+tickers = ["AAPL","AMGN","AXP","BA","CAT","CRM","CSCO","CVX","DIS","DOW","GS",
+           "HD","HON","IBM","INTC","JNJ","JPM","KO","MCD","MMM","MRK","MSFT",
+           "NKE","PFE","PG","RTX","TRV","UNH","V","VZ","WMT"]
+
+**Back test period**
+
+    "2019-06-30",
+    "2025-06-30"
+
+
 **Features**
 
 Momentum Strategy Logic: Buys stocks that break their 52-week high and holds them for a fixed period (default 15 days).
@@ -75,17 +87,6 @@ matplotlib
 seaborn
 
 scikit-learn
-
-**Dow Jones Industrial Average Index constituents as of 1 December 2025**
-
-tickers = ["AAPL","AMGN","AXP","BA","CAT","CRM","CSCO","CVX","DIS","DOW","GS",
-           "HD","HON","IBM","INTC","JNJ","JPM","KO","MCD","MMM","MRK","MSFT",
-           "NKE","PFE","PG","RTX","TRV","UNH","V","VZ","WMT"]
-
-**Back test period**
-
-    "2019-06-30",
-    "2025-06-30"
 
 
 **License**
