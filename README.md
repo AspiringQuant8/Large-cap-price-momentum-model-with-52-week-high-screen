@@ -24,6 +24,7 @@ The model is able to achieve similar returns to its benchmark with smaller drawd
 
 <img width="1007" height="721" alt="Screenshot 2025-12-02 at 13 07 07" src="https://github.com/user-attachments/assets/02331c93-fbd8-4d33-99e7-52aa45bc5bee" />
 
+The number of stocks in an equity index reaching new 52-week high can also be incorporated in trading models as stand-alone signal for predicting future returns of that equity index.
 
 **Sample trades**
 
