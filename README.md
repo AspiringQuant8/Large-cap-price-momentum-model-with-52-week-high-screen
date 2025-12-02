@@ -17,9 +17,13 @@ Stock that meet the criteria are held for 15 trading days. The model does not ho
 
 <img width="925" height="437" alt="Screenshot 2025-12-02 at 12 46 26" src="https://github.com/user-attachments/assets/209ff2b0-cfda-4f4c-bb3b-2228665ef865" />
 
-<img width="1007" height="721" alt="Screenshot 2025-12-02 at 13 07 07" src="https://github.com/user-attachments/assets/02331c93-fbd8-4d33-99e7-52aa45bc5bee" />
+The model is able to achieve similar returns to its benchmark with smaller drawdowns, suggesting a higher Sharpe ratio (better risk-adjusted returns)
 
 <img width="492" height="256" alt="Screenshot 2025-12-02 at 12 46 43" src="https://github.com/user-attachments/assets/7022ea5f-ac16-4938-a439-84c7753d8f22" />
+
+
+<img width="1007" height="721" alt="Screenshot 2025-12-02 at 13 07 07" src="https://github.com/user-attachments/assets/02331c93-fbd8-4d33-99e7-52aa45bc5bee" />
+
 
 **Sample trades**
 
