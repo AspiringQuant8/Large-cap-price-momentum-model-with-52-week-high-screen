@@ -1,8 +1,8 @@
 **Momentum trading strategy with 52-week high filter**
 
-Momentum-based trading strategy seeking to achieve better risk adjusted returns by selecting new 52-week high instead of stocks that have outperformed the most in a given period. The model also relies on the number of stocks at 52-week high as a signal and predictor of future index returns. For simplicity, the stock universe is limited to the 30 Dow Jones Industrial Average Index constituents. 
+Momentum-based trading strategy seeking to achieve better risk adjusted returns by selecting new 52-week high instead of stocks that  outperformed the most in a given period. The model also relies on the number of stocks at 52-week high as a signal and predictor of future index returns. For simplicity, the stock universe is limited to the 30 Dow Jones Industrial Average Index constituents. 
 
-The trading strategy is underpinned by academic research on momentum strategies improved by closeness to 52-week high. 
+Academic research consistently finds momentum strategies historically generate positive returns and the momentum effect is a persistent market anomaly. Stocks identified by these strategies tend to continue their performance in the short-to-medium term. This model implements the findings from literature suggesting momentum strategies can be improved by incorporating closeness to 52-week high. 
 
 Reference to paper:
 George, T. J., & Hwang, C.-Y. (2004). The 52-week high and momentum investing. The Journal of Finance, 59(3), 2145-2176. Retrieved from
