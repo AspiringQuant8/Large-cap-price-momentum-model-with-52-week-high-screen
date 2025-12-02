@@ -31,7 +31,7 @@ The model is able to achieve similar returns to its benchmark with smaller drawd
 
 **Further research**
 
-For this sample period, the portfolio returns are similar to the benchmark (Dow Jones Industrial Average Index), the model has a higher Sharpe ratio (risk adjusted return). Further development of the model might include testing with stocks from other country markets (DAX, Nikkei, so on), employing leverage, adjusting position sizing based on the number of index constituents at 52 week high as a signal for upward price momentum to continue.
+In the sample period, the portfolio returns are similar to the benchmark (Dow Jones Industrial Average Index), the model has a higher Sharpe ratio (risk adjusted return). Further development of the model might include testing with stocks from other country markets, employing leverage, adjusting position sizing based on the number of index constituents at 52 week high as a signal for upward price momentum to continue.
 
 Welcome your feedback and discussion 
 
