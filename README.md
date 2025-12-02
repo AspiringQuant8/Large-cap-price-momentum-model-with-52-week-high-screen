@@ -28,6 +28,10 @@ Acknowledging generative AI was used extensively to write the Python code.
 
 The period chosen is 5 year between June 2019 and June 2025. This period was selected to illustrate how the model has smaller drawdowns compared to the benchmark Dow Jones index during market declines - for example during the COVID-19 pandemic stock market volatility during March and April 2020. This period was also chosen to show that the model largely holds cash when the index is performing poorly, contributing to lower drawdowns. For example during 2022, a negative year for Dow Jones, the model held more cash. 
 
+<img width="492" height="256" alt="Screenshot 2025-12-02 at 12 46 43" src="https://github.com/user-attachments/assets/7022ea5f-ac16-4938-a439-84c7753d8f22" />
+
+<img width="925" height="437" alt="Screenshot 2025-12-02 at 12 46 26" src="https://github.com/user-attachments/assets/209ff2b0-cfda-4f4c-bb3b-2228665ef865" />
+
 
 **Further research**
 
