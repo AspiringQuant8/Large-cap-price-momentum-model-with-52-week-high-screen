@@ -1,6 +1,6 @@
 **Momentum trading strategy with 52-week high filter**
 
-This project implements a momentum-based trading strategy screening stocks based on their 52-week high. It simulates a portfolio of stocks (constituents of Dow Jones 30), tracks portfolio value, calculates drawdowns, and visualises results with heatmaps and return distributions. The project leverages Yahoo Finance for historical stock data.
+Momentum-based trading strategy seeking to achieve better risk adjusted returns by selecting new 52-week high instead of stocks that have outperformed the most in a given period. The model also relies on the number of stocks at 52-week high as a signal and predictor of future index returns. For simplicity, the stock universe is limited to the 30 Dow Jones Industrial Average Index constituents. 
 
 The trading strategy is underpinned by academic research on momentum strategies improved by closeness to 52-week high. 
 
@@ -12,6 +12,10 @@ https://www.bauer.uh.edu/tgeorge/papers/gh4-paper.pdf
 
 The model identifies stocks that reached a new 52-week high and buys at the closing price (submitting an order to fill in closing auction).
 Stock that meet the criteria are held for 15 trading days. The model does not hold two positions of the same ticker at one time. 
+
+**Source of data**
+
+The project leverages Yahoo Finance for historical stock data.
 
 **Assumptions**
 
@@ -27,6 +31,8 @@ Returns are gross returns and do not account for dividends and other corporate a
 Acknowledging generative AI was used extensively to write the Python code.
 
 The period chosen is 5 year between June 2019 and June 2025. This period was selected to illustrate how the model has smaller drawdowns compared to the benchmark Dow Jones index during market declines - for example during the COVID-19 pandemic stock market volatility during March and April 2020. This period was also chosen to show that the model largely holds cash when the index is performing poorly, contributing to lower drawdowns. For example during 2022, a negative year for Dow Jones, the model held more cash. 
+
+<img width="1007" height="721" alt="Screenshot 2025-12-02 at 13 07 07" src="https://github.com/user-attachments/assets/02331c93-fbd8-4d33-99e7-52aa45bc5bee" />
 
 <img width="492" height="256" alt="Screenshot 2025-12-02 at 12 46 43" src="https://github.com/user-attachments/assets/7022ea5f-ac16-4938-a439-84c7753d8f22" />
 
