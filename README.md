@@ -21,6 +21,9 @@ Stock that meet the criteria are held for 15 trading days. The model does not ho
 
 <img width="492" height="256" alt="Screenshot 2025-12-02 at 12 46 43" src="https://github.com/user-attachments/assets/7022ea5f-ac16-4938-a439-84c7753d8f22" />
 
+**Sample trades**
+
+<img width="831" height="221" alt="Screenshot 2025-12-02 at 13 22 05" src="https://github.com/user-attachments/assets/e4e9f6fd-cec8-4a4f-9ea3-e2aaf70c1b9a" />
 
 **Further research**
 
