@@ -35,11 +35,11 @@ In the sample period, the portfolio returns are similar to the benchmark (Dow J
 
 Further development of the model might include: 
 
-*employing leverage, 
+* Employing leverage
 
-*testing with stocks from other international equity markets, 
+* Testing with stocks from other international equity markets
 
-*adjusting position sizing based on the number of index constituents at 52-week high as a signal for upward price momentum to continue.
+* Adjusting position sizing based on the number of index constituents at 52-week high as a signal for upward price momentum to continue
 
 
 Welcome your feedback and discussion 
