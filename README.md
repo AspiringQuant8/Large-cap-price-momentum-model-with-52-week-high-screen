@@ -11,7 +11,7 @@ https://www.bauer.uh.edu/tgeorge/papers/gh4-paper.pdf
 ## How the model works in layman's terms
 
 The model identifies stocks that reached a new 52-week high and buys at the closing price (submitting an order to fill in closing auction).
-Stock that meet the criteria are held for 15 trading days. The model does not hold two positions of the same ticker at one time. 
+Stocks that meet the criteria are held for 15 trading days. The model does not hold two positions of the same ticker at one time. 
 
 ## Results
 
@@ -60,7 +60,7 @@ tickers = ["AAPL","AMGN","AXP","BA","CAT","CRM","CSCO","CVX","DIS","DOW","GS",
 
 ## Notes
 
-Acknowledging generative AI was used extensively to write the Python code.
+Acknowledging generative AI was used extensively to code in Python.
 
 
 ## Source of data
@@ -72,19 +72,19 @@ The project leverages Yahoo Finance for historical stock data.
 
 Momentum Strategy Logic: Buys stocks that break their 52-week high and holds them for a fixed period (default 15 days).
 
-Portfolio Tracking: Tracks cash, invested capital, total portfolio value, and commissions daily.
+Portfolio Tracking: Tracks cash, invested capital, total portfolio value and commissions.
 
-Benchmark Comparison: Compares portfolio performance against the Dow Jones Industrial Average (DJI).
+Benchmark Comparison: Compares portfolio performance against the Dow Jones Industrial Average Index (DJI).
 
-Drawdown Analysis: Calculates and reports the largest portfolio and benchmark drawdowns.
+Drawdown Analysis: Calculates and reports largest portfolio and benchmark drawdowns.
 
 ## Visualisation
 
-The strategy produces three key visualisations:
+Visualisations in the model:
 
-Portfolio vs DJI Line Chart: Tracks total value of the portfolio against the Dow Jones index.
+Portfolio vs DJI Line Chart: Tracks total value of the portfolio against the Dow Jones Industrial Average Index.
 
-Monthly Returns Heatmap: Visualises monthly portfolio and DJI returns.
+Monthly Returns Heatmap: Visualises monthly portfolio and Dow Jones returns.
 
 Distribution of Trade Returns: Shows the spread of individual trade returns.
 
