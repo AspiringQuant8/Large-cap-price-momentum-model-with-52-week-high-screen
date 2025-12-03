@@ -34,9 +34,13 @@ The number of stocks in an equity index reaching new 52-week high can also be in
 In the sample period, the portfolio returns are similar to the benchmark (Dow Jones Industrial Average Index), the model has a higher Sharpe ratio (risk-adjusted return). 
 
 Further development of the model might include: 
--employing leverage, 
--testing with stocks from other international equity markets, 
--adjusting position sizing based on the number of index constituents at 52-week high as a signal for upward price momentum to continue.
+
+'*'employing leverage, 
+
+'*'testing with stocks from other international equity markets, 
+
+'*'adjusting position sizing based on the number of index constituents at 52-week high as a signal for upward price momentum to continue.
+
 
 Welcome your feedback and discussion 
 
